@@ -1,25 +1,13 @@
-import { useState, useEffect } from "react";
-import Booklist from "../Booklist";
+
+import Usefetch from "../Usefetch";
 
 const Allbooks = () => {
     const readstat = "all"
-    const [Books, setBooks] = useState([]);
-
-    useEffect( () => {
-        fetch('http://localhost:8000/Bookdata')
-        .then(res => {
-            return res.json()
-        })
-        .then((data) => {
-            setBooks(data)
-        })
-    }, [])
-
-    return ( 
-        <div className="Allbooks">
-            <Booklist Books={Books} readstat={readstat}  />
-        </div>
-     );
+    const cname = "Allbooks"
+    const extens = "Bookdata"
+    return (
+        <Usefetch readstat={readstat} cname={cname} extens={extens}/>
+    )
 }
  
 export default Allbooks;

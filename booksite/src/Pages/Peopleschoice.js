@@ -1,25 +1,12 @@
-import { useState, useEffect } from "react";
-import Booklist from "../Booklist";
+import Usefetch from "../Usefetch"
+
 const Pchoice = () => {
 
-    
-    const [Books, setBooks] = useState([]);
-
-    useEffect( () => {
-        fetch('http://localhost:8000/PeoplesBooks')
-        .then(res => {
-            return res.json()
-        })
-        .then((data) => {
-            setBooks(data)
-        })
-    }, [])
-
-
+    const readstat = "all"
+    const cname = "Haveread"
+    const extens  = "Peoplesbooks"
     return ( 
-        <div className="YourBooks">
-            <Booklist Books={Books}  />
-        </div>
+        <Usefetch cname={cname} readstat={readstat} extens={extens} />
      );
 }
  

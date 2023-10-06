@@ -1,9 +1,12 @@
+import Usefetch from "../Usefetch"
 const Curread = () => {
-    return ( 
-        <div>
-            <h1>currently reading </h1>
-        </div>
-     );
+    
+    const readstat = "reading"
+    const cname = "Curread"
+    const extens = "Bookdata"
+    return (
+        <Usefetch readstat={readstat} cname={cname} extens={extens}/>
+    )
 }
  
 export default Curread;

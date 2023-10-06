@@ -1,8 +1,10 @@
+import Usefetch from "../Usefetch";
 const Haveread = () => {
+    const readstat = "read"
+    const cname = "Haveread"
+    const extens = "Bookdata"
     return ( 
-        <div>
-            <h2>i have read these</h2>
-        </div>
+        <Usefetch cname={cname} readstat={readstat} extens={extens} />
      );
 }
  
