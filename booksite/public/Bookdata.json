@@ -1,42 +1,60 @@
 {
-
-    "Bookdata" : [
-        {
-            "name": "The Alchemyst",
-            "author" : "Michael Scott",
-            "readstatus": "read",
-            "id" : "0"
-        },
-        {
-            "name": "The Warlock",
-            "author": "Michael Scott",
-            "readstatus": "read",
-            "id" : "1"
-        },
-        {
-            "name": "Foundation",
-            "author": "Isaac Asimov",
-            "readstatus": "reading",
-            "id" : "2"
-        },
-        {
-            "name": "Real Analysis",
-            "author": "Jay Cummings",
-            "readstatus": "not read",
-            "id" : "3"
-        }
-    ],
-
-    "PeoplesBooks" : [
-        {
-            "name" : "harry",
-            "name" : "Harry Potter and the Sorceror's Stone",
-            "author" : "JK Rowling"
-        },
-        {
-            "name" : "Dwen",
-            "name" : "Quantum Mechanics, theoretical minimum",
-            "author" : "Art Fridman"
-        }
-    ]
+  "Bookdata": [
+    {
+      "name": "The Alchemyst",
+      "author": "Michael Scott",
+      "readstatus": "read",
+      "id": 0
+    },
+    {
+      "name": "The Warlock",
+      "author": "Michael Scott",
+      "readstatus": "read",
+      "id": 1
+    },
+    {
+      "name": "Foundation",
+      "author": "Isaac Asimov",
+      "readstatus": "reading",
+      "id": 2
+    },
+    {
+      "name": "Real Analysis",
+      "author": "Jay Cummings",
+      "readstatus": "not read",
+      "id": 3
+    }
+  ],
+  "PeoplesBooks": [
+    {
+      "person": "harry",
+      "name": "Harry Potter and the Sorceror's Stone",
+      "author": "JK Rowling",
+      "id": 0
+    },
+    {
+      "person": "Dwen",
+      "name": "Quantum Mechanics, theoretical minimum",
+      "author": "Art Fridman",
+      "id": 1
+    },
+    {
+      "name": "Magical Day",
+      "person": "colton",
+      "author": "unknown",
+      "id": 2
+    },
+    {
+      "name": "dkjflj",
+      "person": "hello",
+      "author": "none",
+      "id": 3
+    },
+    {
+      "name": "another title",
+      "person": "another person",
+      "author": "who cares",
+      "id": 4
+    }
+  ]
 }

@@ -5,6 +5,7 @@ const Onebook = (props) => {
                     <h2>{book.name}</h2>
                     <p>Written by: {book.author}</p>
                     {book.readstatus && <p>read status: {book.readstatus}</p>}
+                    {book.person && <p>submitted by: {book.person} </p> }
                 </div> );
 }
  
