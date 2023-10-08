@@ -13,8 +13,8 @@ const Addchoice = () => {
         const book = {name, person, author}
         
         setIsPending(true)
-
-        fetch('http://localhost:8000/Peoplesbooks', {
+        //http://localhost:8000/Peoplesbooks
+        fetch('https://booksite-7cde2-default-rtdb.firebaseio.com/Peoplesbooks.json', {
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(book)
